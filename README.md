@@ -1,4 +1,4 @@
-# My First PHP To-Do List
+# PHP To-Do List
 
 A small project for learning how PHP forms and a MySQL database work together.
 
