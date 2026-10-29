@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "**/.runtime": true,
+        "**/.vscode": true,
+        "**/vendor": true,
+        "**/composer.json": true,
+        "**/composer.lock": true,
+        "**/.gitignore": true,
+        "**/start.ps1": true
+    },
+    "search.exclude": {
+        "**/.runtime": true,
+        "**/vendor": true
+    }
+}

@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 50px 16px; font-family: Arial, sans-serif; background: #f4f4f8; color: #333; }
+main { max-width: 650px; margin: auto; padding: 28px; background: white; border-radius: 12px; }
+h1 { margin-top: 0; }
+p { color: #777; line-height: 1.6; }
+input, button { font: inherit; padding: 10px 12px; border-radius: 6px; }
+input { flex: 1; min-width: 0; border: 1px solid #ddd; }
+button { border: 0; background: #7560cf; color: white; cursor: pointer; }
+button:hover { background: #5f4aaf; }
+.add-form, .task-actions { display: flex; gap: 8px; align-items: center; }
+ul { padding: 0; margin-bottom: 0; list-style: none; }
+li { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 16px 0; border-bottom: 1px solid #eee; }
+li span { overflow-wrap: anywhere; }
+li:last-child { border-bottom: 0; }
+.completed { text-decoration: line-through; color: #999; }
+.delete { background: #fbe9e9; color: #ad3e3e; }
+.delete:hover { background: #f5d2d2; }
+.error { color: #ad3e3e; }
+small { color: #678d69; }
+@media (max-width: 500px) {
+    body { padding-top: 20px; }
+    main { padding: 20px; }
+    li { align-items: flex-start; flex-direction: column; }
+    .task-actions { align-self: flex-end; }
+}

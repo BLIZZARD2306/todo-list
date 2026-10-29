@@ -1,0 +1,6 @@
+/.env
+/.phpunit.cache/
+/vendor/
+/storage/*.sqlite
+/src/config.php
+/.runtime/
